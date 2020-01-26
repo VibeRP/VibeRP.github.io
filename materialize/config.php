@@ -10,7 +10,7 @@
 	// GENERAL SETTINGS
 	$serverIP = $_SERVER['REMOTE_ADDR'];
 	$serverPort = '27015';
-	$serverName = "Garry's Mod Server";
+	$serverName = "VibeRP";
 	$serverWelcome = "Welcome back, ";
 	$serverRules = "<li>Don't mess with other Players. [<i>Ex. Killing or Deleting Props</i>]</li>
 	                <li>Don't Spam. [<i>Ex. Mic, Chat and Props</i>]</li>
@@ -18,17 +18,17 @@
 	                <li>Don't use any Cheats/Exploits.</li>
 	                <li>Respect the Admins</li>";
 
-	$default_steam64 = '76561197960279927'; // Default Steam64 ID if you're viewing in browser
-	$default_map = 'gm_flatgrass'; // Default map if you're viewing in browser
-	$SteamAPIKey = ''; // SteamAPI Key (http://steamcommunity.com/dev/apikey)
-	$SteamWorkshopid = ''; // Steam Workshop Content ID (http://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXX)
+	$default_steam64 = '76561198143814930'; // Default Steam64 ID if you're viewing in browser
+	$default_map = 'rp_genova'; // Default map if you're viewing in browser
+	$SteamAPIKey = 'B5B85FFF6AD41D48EF77B26D4EE11B32'; // SteamAPI Key (http://steamcommunity.com/dev/apikey)
+	$SteamWorkshopid = 'https://steamcommunity.com/sharedfiles/filedetails/?id=1810401180'; // Steam Workshop Content ID (http://steamcommunity.com/sharedfiles/filedetails/?id=XXXXXXXXX)
 
-	$enable_music = true; // Enable music? (Selects random .ogg soundfile from the music directory) (true/false)
+	$enable_music = false; // Enable music? (Selects random .ogg soundfile from the music directory) (true/false)
 	$music_volume = 0.5; // Music volume (Default: 0.5) Can be anywhere from 0.1 to 1
 
-	$materialize_text_color = 'white'; // Materialize Color Name ($materialize_text_color-text) [http://materializecss.com/color.html]
-	$materialize_card_color = 'teal darken-3'; // Materialize Color Name [http://materializecss.com/color.html]
-	$materialize_waves_color = 'teal'; // Materialize Wave Color (waves-$materialize_waves_color) [http://materializecss.com/color.html]
+	$materialize_text_color = 'orange'; // Materialize Color Name ($materialize_text_color-text) [http://materializecss.com/color.html]
+	$materialize_card_color = 'orange darken-3'; // Materialize Color Name [http://materializecss.com/color.html]
+	$materialize_waves_color = 'orange'; // Materialize Wave Color (waves-$materialize_waves_color) [http://materializecss.com/color.html]
 
 	$toast_join_message = 'Thank you for joining our server, have fun!';
 	$bg_img = 'img/blue_gradient_abstract.jpg'; // URL or directory link for background image.
